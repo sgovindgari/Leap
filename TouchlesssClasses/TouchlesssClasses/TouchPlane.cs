@@ -20,6 +20,11 @@ namespace Touchless2
             public Vector BottomLeftBack;
             public Vector BottomRightBack;
         }
+        private float PlaneXSlope;
+        private float PlaneZSlope;
+        private float PlaneXSlope2;
+        private float PlaneZSlope2;
+
         private Box bounding;
         public TouchPlane(int ID)
         {
@@ -47,7 +52,7 @@ namespace Touchless2
 
         public Vector CheckCollision(Vector Position)
         {
-            if(
+           // if(
         }
 
     }
