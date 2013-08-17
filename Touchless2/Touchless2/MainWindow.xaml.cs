@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Leap;
 
 namespace Touchless2
 {
@@ -20,9 +21,17 @@ namespace Touchless2
     /// </summary>
     public partial class MainWindow : Window
     {
+        LeapListener listener;
+        Controller controller;
+
         public MainWindow()
         {
             InitializeComponent();
+
+            listener = new LeapListener();
+            controller = new Controller();
+
+            controller.AddListener(listener);
         }
     }
 }
