@@ -9,6 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using Microsoft.Expression.Blend.View;
 using System;
 using System.Diagnostics;
 using System.Windows;
