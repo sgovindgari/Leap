@@ -7,3 +7,8 @@ C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\obj\D
 C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses.g.resources
 C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses.Properties.Resources.resources
 C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses.csproj.GenerateResource.Cache
+C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\bin\Debug\TouchlesssClasses.exe
+C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\bin\Debug\TouchlesssClasses.pdb
+C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\bin\Debug\LeapCSharp.NET4.0.dll
+C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses.exe
+C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses.pdb

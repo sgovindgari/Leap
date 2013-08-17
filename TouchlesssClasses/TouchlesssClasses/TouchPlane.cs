@@ -50,10 +50,11 @@ namespace Touchless2
             data = myData;
         }
 
-        public Vector CheckCollision(Vector Position)
-        {
-           // if(
-        }
+        //public Vector CheckCollision(Vector Position)
+        //{
+        //   // if(
+        //    return null; 
+        //}
 
     }
 }
