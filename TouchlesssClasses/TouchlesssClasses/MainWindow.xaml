@@ -83,12 +83,12 @@
             <Slider Grid.Column="1" Width="100" Value="0" Orientation="Horizontal"/>
             <TextBlock Grid.Row="1" Text="Left Swipe" />
             <Slider Grid.Row="1" Grid.Column="1" Width="100" Value="0" Orientation="Horizontal"/>
-            <TextBlock Grid.Row="1" Text="Up" />
-            <Slider Grid.Row="1" Grid.Column="1" Width="100" Value="0" Orientation="Horizontal"/>
-            <TextBlock Grid.Row="1" Text="Down" />
-            <Slider Grid.Row="1" Grid.Column="1" Width="100" Value="0" Orientation="Horizontal"/>
-            <TextBlock Grid.Row="1" Text="Close" />
-            <Slider Grid.Row="1" Grid.Column="1" Width="100" Value="0" Orientation="Horizontal"/>
+            <TextBlock Grid.Row="2" Text="Up" />
+            <Slider Grid.Row="2" Grid.Column="1" Width="100" Value="0" Orientation="Horizontal"/>
+            <TextBlock Grid.Row="3" Text="Down" />
+            <Slider Grid.Row="3" Grid.Column="1" Width="100" Value="0" Orientation="Horizontal"/>
+            <TextBlock Grid.Row="4" Text="Close" />
+            <Slider Grid.Row="4" Grid.Column="1" Width="100" Value="0" Orientation="Horizontal"/>
         </Grid>
 
         <ItemsControl
