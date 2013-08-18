@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿TouchlesssClasses
 
 
@@ -19,6 +20,28 @@ MainWindow.xaml;
 
 False
 
+=======
+﻿TouchlesssClasses
+
+
+winexe
+C#
+.cs
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\
+TouchlesssClasses
+none
+false
+DEBUG;TRACE
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\App.xaml
+11151548125
+
+81208367719
+131154116691
+MainWindow.xaml;
+
+False
+
+>>>>>>> 667d684ed5e90ce8379cf45b3b82665e80214b73
 =======
 ﻿TouchlesssClasses
 
