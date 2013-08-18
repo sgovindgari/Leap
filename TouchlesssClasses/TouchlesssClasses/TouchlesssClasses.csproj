@@ -37,8 +37,11 @@
     <Reference Include="LeapCSharp.NET4.0">
       <HintPath>..\..\Touchless2\Touchless2\LeapCSharp.NET4.0.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Expression.Blend, Version=5.0.30709.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -56,8 +59,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="MainWindowViewModel.cs" />
+    <Compile Include="ScreenViewModel.cs" />
     <Compile Include="TouchPlane.cs" />
     <Compile Include="TouchPlaneData.cs" />
+    <Compile Include="ViewModelBase.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

@@ -12,16 +12,21 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Leap;
 
-namespace TouchlesssClasses
+namespace Touchless2
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        private MainWindowViewModel viewModel;
+
         public MainWindow()
         {
+            this.viewModel = new MainWindowViewModel();
+            this.DataContext = this.viewModel;
             InitializeComponent();
         }
     }
