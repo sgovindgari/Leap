@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Release\
 TouchlesssClasses
 none
 false
-DEBUG;TRACE
+TRACE
 C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\App.xaml
 11151548125
 
-16-534846500
-16-1294748802
+16355636015
+15-1914048263
 MainWindow.xaml;
 
 True

@@ -1,0 +1,16 @@
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Release\App.g.cs
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Release\TouchlesssClasses_MarkupCompile.cache
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Release\TouchlesssClasses.csprojResolveAssemblyReference.cache
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\bin\Release\TouchlesssClasses.exe.config
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\bin\Release\TouchlesssClasses.exe
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\bin\Release\TouchlesssClasses.pdb
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\bin\Release\LeapCSharp.NET4.0.dll
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Release\TouchlesssClasses.Properties.Resources.resources
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Release\TouchlesssClasses.csproj.GenerateResource.Cache
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Release\TouchlesssClasses.exe
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Release\TouchlesssClasses.pdb
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Release\MainWindow.g.cs
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Release\TouchlesssClasses_MarkupCompile.lref
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Release\MainWindow.baml
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Release\TouchlesssClasses.g.resources

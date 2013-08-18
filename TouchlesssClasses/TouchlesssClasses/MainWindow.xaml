@@ -1,7 +1,7 @@
 ﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:View="clr-namespace:Microsoft.Expression.Blend.View;assembly=Microsoft.Expression.Blend" x:Class="Touchless2.MainWindow"
+        x:Class="Touchless2.MainWindow"
         xmlns:app="clr-namespace:Touchless2"
         Title="MainWindow" Height="350" Width="525">
     <Window.Resources>
@@ -93,5 +93,6 @@
 
         <ItemsControl
             ItemsSource="{Binding Screens}" />
+        <Button Click="Button_Click_1" />
     </StackPanel>
 </Window>
