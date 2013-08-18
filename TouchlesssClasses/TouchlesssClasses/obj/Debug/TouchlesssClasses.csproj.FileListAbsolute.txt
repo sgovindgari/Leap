@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\bin\Debug\TouchlesssClasses.exe.config
 C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses.csprojResolveAssemblyReference.cache
 C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\MainWindow.baml
@@ -60,3 +61,33 @@ E:\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\MainWindo
 E:\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses.g.resources
 E:\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses.Properties.Resources.resources
 E:\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses.csproj.GenerateResource.Cache
+=======
+C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\bin\Debug\TouchlesssClasses.exe.config
+C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses.csprojResolveAssemblyReference.cache
+C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\MainWindow.baml
+C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\MainWindow.g.cs
+C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\App.g.cs
+C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses_MarkupCompile.cache
+C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses.g.resources
+C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses.Properties.Resources.resources
+C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses.csproj.GenerateResource.Cache
+C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\bin\Debug\TouchlesssClasses.exe
+C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\bin\Debug\TouchlesssClasses.pdb
+C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\bin\Debug\LeapCSharp.NET4.0.dll
+C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses.exe
+C:\Users\Garrett\Documents\GitHub\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses.pdb
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\bin\Debug\TouchlesssClasses.exe.config
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses.exe
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses.pdb
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\bin\Debug\TouchlesssClasses.exe
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\bin\Debug\TouchlesssClasses.pdb
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\bin\Debug\LeapCSharp.NET4.0.dll
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses.csprojResolveAssemblyReference.cache
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\MainWindow.baml
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\MainWindow.g.cs
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\App.g.cs
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses_MarkupCompile.cache
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses.g.resources
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses.Properties.Resources.resources
+C:\cygwin64\home\Scarlet\gitRepo\Leap\TouchlesssClasses\TouchlesssClasses\obj\Debug\TouchlesssClasses.csproj.GenerateResource.Cache
+>>>>>>> 667d684ed5e90ce8379cf45b3b82665e80214b73
