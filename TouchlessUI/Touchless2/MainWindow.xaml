@@ -1,0 +1,97 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:View="clr-namespace:Microsoft.Expression.Blend.View;assembly=Microsoft.Expression.Blend" x:Class="Touchless2.MainWindow"
+        xmlns:app="clr-namespace:Touchless2"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <DataTemplate
+            DataType="{x:Type app:ScreenViewModel}">
+            <Border BorderThickness="2" BorderBrush="Black">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Name" />
+                    <TextBlock Grid.Row="1" Text="Position" />
+                    <TextBlock Grid.Row="2" Text="Dimension" />
+                    <TextBlock Grid.Column="1" Text="{Binding Name}" />
+                    <TextBlock Grid.Column="1" Grid.Row="1" Text="{Binding PositionString}" />
+                    <TextBlock Grid.Column="1" Grid.Row="2" Text="{Binding DimensionString}" />
+                </Grid>
+            </Border>
+        </DataTemplate>
+        <ObjectDataProvider MethodName="GetValues"
+                ObjectType="{x:Type app:Mode}"
+                x:Key="ModeValues">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="app:Mode" />
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <ObjectDataProvider MethodName="GetValues"
+                ObjectType="{x:Type app:Option}"
+                x:Key="OptionValues">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="app:Option" />
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </Window.Resources>
+    <StackPanel>
+        <TextBlock Text="Welcome to letsleap!" />
+        <TextBlock Text="Select Mode" />
+        <ListBox SelectedValue="{Binding Mode}"
+                 ItemsSource="{Binding Source={StaticResource ModeValues}}" />
+        <TextBlock Text="Configure" />
+        <ListBox SelectedValue="{Binding Option}"
+                 ItemsSource="{Binding Source={StaticResource OptionValues}}" />
+        <Grid
+            Visibility="{Binding TouchPanelVisibility}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <TextBlock Text="Thickness/Depth" />
+            <Slider Grid.Column="1" Width="100" Value="0" Orientation="Horizontal"/>
+            <TextBlock Grid.Row="1" Text="Sensitivity" />
+            <Slider Grid.Row="1" Grid.Column="1" Width="100" Value="0" Orientation="Horizontal"/>
+        </Grid>
+        <Grid
+            Visibility="{Binding GesturesPanelVisibility}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <TextBlock Text="Right Swipe" />
+            <Slider Grid.Column="1" Width="100" Value="0" Orientation="Horizontal"/>
+            <TextBlock Grid.Row="1" Text="Left Swipe" />
+            <Slider Grid.Row="1" Grid.Column="1" Width="100" Value="0" Orientation="Horizontal"/>
+            <TextBlock Grid.Row="1" Text="Up" />
+            <Slider Grid.Row="1" Grid.Column="1" Width="100" Value="0" Orientation="Horizontal"/>
+            <TextBlock Grid.Row="1" Text="Down" />
+            <Slider Grid.Row="1" Grid.Column="1" Width="100" Value="0" Orientation="Horizontal"/>
+            <TextBlock Grid.Row="1" Text="Close" />
+            <Slider Grid.Row="1" Grid.Column="1" Width="100" Value="0" Orientation="Horizontal"/>
+        </Grid>
+        
+        <ItemsControl
+            ItemsSource="{Binding Screens}" />
+    </StackPanel>
+</Window>
