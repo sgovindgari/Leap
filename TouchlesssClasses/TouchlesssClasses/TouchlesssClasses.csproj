@@ -64,6 +64,7 @@
     <Compile Include="TouchPlane.cs" />
     <Compile Include="TouchPlaneData.cs" />
     <Compile Include="ViewModelBase.cs" />
+    <Compile Include="WindowsFunction.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
