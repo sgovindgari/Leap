@@ -93,6 +93,6 @@
 
         <ItemsControl
             ItemsSource="{Binding Screens}" />
-        <Button Click="Button_Click_1" />
+        <Button Click="Button_Click_1">oko</Button>
     </StackPanel>
 </Window>

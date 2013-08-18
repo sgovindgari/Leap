@@ -27,9 +27,14 @@ namespace Touchless2
         private const int SW_SHOWMINIMIZED = 2;
         private const int SW_SHOWMAXIMIZED = 3;
 
-        [DllImport(@"user32.dll")]
+        [DllImport("user32.dll")]
         private static extern IntPtr FindWindow(string lp1, string lp2);
+        [DllImport("user32.dll")]
         private static extern bool ShowWindowAsync(IntPtr hWnd, int nCmdShow);
+        [DllImport("user32.dll")]
+        private static extern IntPtr GetForegroundWindow();
+        [DllImport("user32.dll")]
+        private static extern int GetWindowText(IntPtr hWnd, StringBuilder text, int count);
 
         public MainWindow()
         {
